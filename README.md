@@ -28,7 +28,28 @@ Unveiled trends, popular topics, and patterns in news coverage, offering a profo
 
 F. Visualization and Reporting:
 Crafted visually engaging representations such as topic distribution plots and word clouds to present findings effectively.
-
+(i) Preprocessed Dataset:
+The dataset contains 199,706 English news articles with headlines, content, news categories, and dates.
+Data preprocessing steps included lowercasing, removing HTML tags, emojis, URLs, punctuation, stopwords, and expanding abbreviations.
+News categories were grouped, with rare categories combined into an 'Other' category.
+The dataset was tokenized and split into training and test sets.
+(ii) Trained Classification Models:
+A Multinomial Naive Bayes classifier with Bag of Words (BoW) features achieved an accuracy of 0.89 on the test set.
+Cross-validation with 3 folds gave a mean accuracy of 0.88.
+Hyperparameter tuning using RandomizedSearchCV improved the accuracy to 0.893 with the best parameters: max_features=10000, ngram_range=(1,1), alpha=0.405.
+(iii) Evaluation Results:
+The best model correctly predicted 35,671 samples and misclassified 4,271 samples from the test set.
+A final dataframe was created with the content, predicted labels, and actual labels for analysis.
+(iv) Insights:
+The most prevalent news categories were 'politics', 'education', 'miscellaneous', 'sports', 'business', 'entertainment', and 'technology'.
+The distribution of news articles across categories provides insights into the focus areas of news coverage.
+(v) Recommendations:
+Explore other feature representations like TF-IDF or word embeddings, which may capture semantics better and improve classification accuracy.
+Investigate alternative machine learning models, such as ensemble methods or deep learning approaches, for potentially better performance.
+Analyze misclassified samples to identify patterns and areas for improvement in the classification model.
+Incorporate additional features like publication source, author, or metadata to enhance the classification process.
+Develop a system to monitor and track changes in news categories and topics over time, providing insights into evolving public discourse.
+In summary, the analysis provides a foundation for news classification and insights into news coverage trends. Further improvements and applications can be explored to enhance the accuracy and understanding of public discourse through news analysis.
 G. Outcomes:
 Produced NLP models with high accuracy in news categorization. Offered insights into topic distribution and emerging trends, along with recommendations for enhancing accuracy.
 
