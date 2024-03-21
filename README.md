@@ -8,6 +8,7 @@ A. Real-time Situation:
 In today's rapidly evolving digital media landscape, understanding and categorizing news articles is essential. I addressed this challenge by applying Natural Language Processing (NLP) techniques to classify news articles into predefined topics and extract insightful information from their textual content.
 
 B. Key Components: Data Collection and Preprocessing
+
       i. Lowercasing- Standardized text to lowercase for consistency.
       ii. URL Removal- Eliminated URLs to reduce noise.
       iii. HTML Tags Removal- Stripped HTML tags for cleaner text.
@@ -16,6 +17,7 @@ B. Key Components: Data Collection and Preprocessing
       vi. Tokenization- Broke down text into meaningful units for analysis.
       vii. Stopword Removal- Eliminated common stopwords to focus on significant content.
       viii. Punctuation Removal- Removed unnecessary punctuation marks for clarity.
+
       
 C. Topic Classification:
 Developed NLP classification models using Bag-of-Words (BoW) technique combined with multinomial models. Explored logistic regression, random forests, CNNs, and transformers (BERT) for classification.
