@@ -56,7 +56,9 @@ Crafted visually engaging representations such as topic distribution plots and w
        c. Analyze misclassified samples to identify patterns and areas for improvement in the classification model.
        d. Incorporate additional features like publication source, author, or metadata to enhance the classification process.
        e. Develop a system to monitor and track changes in news categories and topics over time, providing insights into evolving public discourse.
-       
+
+https://github.com/suvro5495/News-paper-report-analysis/blob/main/Screenshot%202024-03-21%20at%2013.19.34.png
+
 In summary, the analysis provides a foundation for news classification and insights into news coverage trends. Further improvements and applications can be explored to enhance the accuracy and understanding of public discourse through news analysis.
 
 G. Outcomes:
